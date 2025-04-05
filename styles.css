@@ -1,0 +1,71 @@
+/* === General Page Styling === */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #dbefff; /* Light blue outer background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* === Inner Container Styling === */
+.container {
+    background-color: #ffffff; /* Inner white box */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 90%;
+}
+
+/* === Header Styling === */
+.quiz-header h1 {
+    color: #1a3d6d;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.quiz-description {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+/* === Progress Bar Styling === */
+.progress-bar {
+    background-color: #e0f0ff;
+    height: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.progress-fill {
+    height: 100%;
+    width: 0%;
+    background-color: #4da8da;
+    transition: width 0.3s ease;
+}
+
+/* === Question Card === */
+.question-card {
+    margin-top: 20px;
+}
+
+/* === Navigation Button Styling === */
+.submit-button {
+    background-color: #4da8da;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0;
+}
+
+.submit-button:hover {
+    background-color: #3a91c2;
+}
